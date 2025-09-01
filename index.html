@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Nathã Melo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--cabeçalho fixo com navegação-->
+    <header>
+        <nav class="menu">
+            <!--logo do portfólio-->
+            <div class="logo">
+                <a href="#home"><img src="img/favicon.png" alt="Logo do Portfólio"></a>
+            </div>
+            <!--menu de navegação-->
+            <a href="#home">Home</a>
+            <a href="#skills">Qualificações</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+    </header>
+
+    <main>
+        <!--seção de apresentação-->
+        <section class="apresentacao" id="home">
+            <div class="text-apresentacao">
+                <h1>olá, eu sou o <span>Nathã Melo!</span></h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio deserunt molestiae, dolores nemo commodi eius ea possimus. Dolorum hic, ipsam enim dolore nemo, porro quisquam vel alias magnam sapiente tempore!</p>
+                <!--botão para baixar currículo-->
+                <button type="download"><a href="curriculo.pdf">Baixar CV</a></button>
+            </div>
+            <!--imagem de apresentação-->
+             <div class="img-apresentacao">
+                <img src="img/mob.jpg" alt="Imagem de Nathã Melo">
+            </div>
+
+        </section>
+        <!--seções de habilidades-->
+        <section class="habilidades" id="skills">
+            <h2 class="título-class">Habilidades Técnicas</h2>
+
+            <div class="card-skills">
+                <!--card de habilidade : HTML5-->
+                <div class="card1">
+                    <img src="img/html.png" alt="HTML">
+                    <h3>HTML5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                </div>
+                <!--card de habilidade : CSS3-->
+                <div class="card1">
+                    <img src="img/css.png" alt="CSS">
+                    <h3>CSS3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                </div>
+                <!--card de habilidade : JavaScript-->
+                <div class="card1">
+                    <img src="img/javascript.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                </div>
+                <!--card de habilidade : Python-->
+                <div class="card1">
+                    <img src="img/python.png" alt="Python">
+                    <h3>Python</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                </div>
+            </div>
+        </section>
+        <!--seção de projetos-->
+        <section class="projetos" id="projects">
+            <h2 class="titulo-class">Meus Projetos</h2>
+        
+            <div class="card-skills">
+                <!--card de projeto : Projeto 1-->
+                <div class="card2">
+                    <img src="img/projeto.png" alt="Imagem do Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    <button><a href="#">Acessar Código</a></button>
+                </div>
+                <!--card de projeto : Projeto 2-->
+                <div class="card2">
+                    <img src="img/projeto.png" alt="Imagem do Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    <button><a href="#">Acessar Código</a></button>
+                </div>
+                <!--card de projeto : Projeto 3-->
+                <div class="card2">
+                    <img src="img/projeto.png" alt="Imagem do Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    <button><a href="#">Acessar Código</a></button>
+                </div>
+                <!--card de projeto : Projeto 4-->
+                <div class="card2">
+                    <img src="img/projeto.png" alt="Imagem do Projeto 4">
+                    <h3>Projeto 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    <button><a href="#">Acessar Código</a></button>
+                </div>
+            </div>
+        </section>
+
+        <!--seção de contato-->
+         <section class="contatos" id="contact">
+            <h2 class="titulo-class">Entre em Contato</h2>
+            <form action="" method="post">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" name="nome" required>
+                <label for="email">Seu E-mail:</label>
+                <input type="email" name="email" required>
+                <label for="mensagem">Sua Mensagem:</label>
+                <textarea name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+ 
+    <!--seção de rodapé com redes sociais-->
+    <footer>
+            <div class="social-media">
+                <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="img/github.png" alt="github"></a>
+                <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
